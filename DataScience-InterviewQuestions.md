@@ -784,3 +784,30 @@ For spam filtering, a false positive occurs when spam filtering or spam blocking
 Answer by Matthew Mayo. 
 
 Selection bias, in general, is a problematic situation in which error is introduced due to a non-random population sample. For example, if a given sample of 100 test cases was made up of a 60/20/15/5 split of 4 classes which actually occurred in relatively equal numbers in the population, then a given model may make the false assumption that probability could be the determining predictive factor. Avoiding non-random samples is the best way to deal with bias; however, when this is impractical, techniques such as resampling, boosting, and weighting are strategies which can be introduced to help deal with the situation. 
+
+# sas.com
+## Technical
+### Q1. What is the curse of dimensionality and how should one deal with it when building machine-learning models?
+### Q2. Why is a comma a bad record separator/delimiter?
+### Q3. Explain the difference between a compiled computer language and an interpreted computer language.
+### Q4. How do you determine “k” for k-means clustering? Or, how do you determine the number of clusters in a data set? 
+### Q5. What’s more important: predictive power or interpretability of a model?
+### Q6. Explain finite precision. Why is finite precision a problem in machine learning?
+### Q7. Explain the “bias-variance trade-off” and why it is fundamental to machine learning.
+
+##Practical
+### Q1. Describe a recent use of logistic regression.
+### Q2. Describe an analysis you have recently completed, including strategies and findings. How were the findings used by the business? (This can be from a student research project or thesis if the candidate is a recent graduate.)
+### Q3. Give examples of data cleaning techniques you have used in the past.
+### Q4. What subjects would you include in a one-day data science crash course? And why?
+### Q5. Describe a situation where you had to decide between two different types of analyses – and why you chose the one you did.
+### Q6. Explain the benefits of test-driven software development; or explain the benefits of unit testing.
+ 
+##Communication
+### Q1. Explain to the leaders of this company what model lift is and why they should care.
+### Q2. How do you identify and overcome obstacles (during projects, with customers, with decision makers, etc.)
+### Q3. Tell me about a project you worked on that succeeded in part because of the way results were communicated. What were the factors that made it a success?
+### Q4. Tell me a compelling story about data that you have analyzed.
+### Q5. What is your favorite data visualization book or blog? And why?
+### Q6. How would you design a chart or graph for a color-blind audience?
+### Q7. Explain to a business analyst the trade-off between the predictive power and the interpretability of a model – and why this matters.
