@@ -670,10 +670,10 @@ Calculating precision and recall is actually quite easy. Imagine there are 100 p
 
 Makes sense so far? Now you count how many of the 10,000 cases fall in each bucket, say:
 
-			   | Predicted Negative | Predicted Positive
--------------- | ------------------ | ------------------ 
-Negative Case  | TN: 9, 760  | FP: 140
-Positive Case  | FN: 40  | TP: 60
+|               | Predicted Negative | Predicted Positive |
+|---------------|--------------------|--------------------|
+| Negative Case | TN: 9,760          | FP:140             |
+| Positive Case | FN: 40             | TP: 60             |
 
 Now, your boss asks you three questions:
 
