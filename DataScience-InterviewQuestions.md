@@ -265,3 +265,334 @@ Answer: The underlying principle of this technique is that several weak learners
 - On each tree, each time a split is considered, a random sample of mm predictors is chosen as split candidates, out of all pp predictors
 - Rule of thumb: At each split m=p√m=p
 - Predictions: At the majority rule
+
+# DeZyre
+### Q1. Python or R – Which one would you prefer for text analytics?
+Answer: The best possible answer for this would be Python because it has Pandas library that provides easy to use data structures and high performance data analysis tools.
+
+### Q2. Which technique is used to predict categorical responses?
+Answer: Classification technique is used widely in mining for classifying data sets.
+
+### Q3. What is logistic regression? Or State an example when you have used logistic regression recently.
+Answer: Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear combination of predictor variables. For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc.
+
+### Q4. What are Recommender Systems?
+A subclass of information filtering systems that are meant to predict the preferences or ratings that a user would give to a product. Recommender systems are widely used in movies, news, research articles, products, social tags, music, etc.
+
+### Q5. Why data cleaning plays a vital role in analysis?
+Answer: Cleaning data from multiple sources to transform it into a format that data analysts or data scientists can work with is a cumbersome process because - as the number of data sources increases, the time take to clean the data increases exponentially due to the number of sources and the volume of data generated in these sources. It might take up to 80% of the time for just cleaning data making it a critical part of analysis task.
+
+### Q6. Differentiate between univariate, bivariate and multivariate analysis.
+These are descriptive statistical analysis techniques which can be differentiated based on the number of variables involved at a given point of time. For example, the pie charts of sales based on territory involve only one variable and can be referred to as univariate analysis.
+If the analysis attempts to understand the difference between 2 variables at time as in a scatterplot, then it is referred to as bivariate analysis. For example, analysing the volume of sale and a spending can be considered as an example of bivariate analysis.
+Analysis that deals with the study of more than two variables to understand the effect of variables on the responses is referred to as multivariate analysis.
+
+### Q7. What do you understand by the term Normal Distribution?
+Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that data is distributed around a central value without any bias to the left or right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of an symmetrical bell shaped curve.
+Bell Curve for Normal Distribution
+
+### Q8. What is Linear Regression?
+Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable.
+
+### Q9. What is Interpolation and Extrapolation?
+Estimating a value from 2 known values from a list of values is Interpolation. Extrapolation is approximating a value by extending a known set of values or facts.
+
+### Q10. What is power analysis?
+An experimental design technique for determining the effect of a given sample size.
+
+### Q11. What is K-means? How can you select K for K-means?
+
+### Q12. What is Collaborative filtering?
+The process of filtering used by most of the recommender systems to find patterns or information by collaborating viewpoints, various data sources and multiple agents.
+
+### Q13. What is the difference between Cluster and Systematic Sampling?
+Cluster sampling is a technique used when it becomes difficult to study the target population spread across a wide area and simple random sampling cannot be applied. Cluster Sample is a probability sample where each sampling unit is a collection, or cluster of elements. Systematic sampling is a statistical technique where elements are selected from an ordered sampling frame. In systematic sampling, the list is progressed in a circular manner so once you reach the end of the list,it is progressed from the top again. The best example for systematic sampling is equal probability method.
+
+### Q14. Are expected value and mean value different?
+They are not different but the terms are used in different contexts. Mean is generally referred when talking about a probability distribution or sample population whereas expected value is generally referred in a random variable context.
+For Sampling Data Mean value is the only value that comes from the sampling data. Expected Value is the mean of all the means i.e. the value that is built from multiple samples. Expected value is the population mean.
+For Distributions Mean value and Expected value are same irrespective of the distribution, under the condition that the distribution is in the same population.
+
+### Q15. What does P-value signify about the statistical data?
+P-value is used to determine the significance of results after a hypothesis test in statistics. P-value helps the readers to draw conclusions and is always between 0 and 1.
+- P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
+- P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
+- P-value=0.05is the marginal value indicating it is possible to go either way.
+
+### Q16.  Do gradient descent methods always converge to same point?
+No, they do not because in some cases it reaches a local minima or a local optima point. You don’t reach the global optima point. It depends on the data and starting conditions
+
+### Q17. What are categorical variables?
+
+### Q18. A test has a true positive rate of 100% and false positive rate of 5%. There is a population with a 1/1000 rate of having the condition the test identifies. Considering a positive test, what is the probability of having that condition?
+
+Let’s suppose you are being tested for a disease, if you have the illness the test will end up saying you have the illness. However, if you don’t have the illness- 5% of the times the test will end up saying you have the illness and 95% of the times the test will give accurate result that you don’t have the illness. Thus there is a 5% error in case you do not have the illness.
+
+Out of 1000 people, 1 person who has the disease will get true positive result.
+
+Out of the remaining 999 people, 5% will also get true positive result.
+
+Close to 50 people will get a true positive result for the disease.
+
+This means that out of 1000 people, 51 people will be tested positive for the disease even though only one person has the illness. There is only a 2% probability of you having the disease even if your reports say that you have the disease.
+
+### Q19. How you can make data normal using Box-Cox transformation?
+
+### Q20. What is the difference between Supervised Learning an Unsupervised Learning?
+If an algorithm learns something from the training data so that the knowledge can be applied to the test data, then it is referred to as Supervised Learning. Classification is an example for Supervised Learning. If the algorithm does not learn anything beforehand because there is no response variable or any training data, then it is referred to as unsupervised learning. Clustering is an example for unsupervised learning.
+
+### Q21. Explain the use of Combinatorics in data science.
+
+### Q22. Why is vectorization considered a powerful method for optimizing numerical code?
+
+### Q23. What is the goal of A/B Testing?
+
+It is a statistical hypothesis testing for randomized experiment with two variables A and B. The goal of A/B Testing is to identify any changes to the web page to maximize or increase the outcome of an interest. An example for this could be identifying the click through rate for a banner ad.
+
+### Q24. What is an Eigenvalue and Eigenvector?
+
+Eigenvectors are used for understanding linear transformations. In data analysis, we usually calculate the eigenvectors for a correlation or covariance matrix. Eigenvectors are the directions along which a particular linear transformation acts by flipping, compressing or stretching. Eigenvalue can be referred to as the strength of the transformation in the direction of eigenvector or the factor by which the compression occurs.
+
+### Q25. What is Gradient Descent?
+
+### Q26. How can outlier values be treated?
+Outlier values can be identified by using univariate or any other graphical analysis method. If the number of outlier values is few then they can be assessed individually but for large number of outliers the values can be substituted with either the 99th or the 1st percentile values. All extreme values are not outlier values.The most common ways to treat outlier values –
+- To change the value and bring in within a range
+- To just remove the value.
+
+### Q27. How can you assess a good logistic model?
+There are various methods to assess the results of a logistic regression analysis-
+
+- Using Classification Matrix to look at the true negatives and false positives.
+- Concordance that helps identify the ability of the logistic model to differentiate between the event happening and not happening.
+- Lift helps assess the logistic model by comparing it with random selection.
+
+### Q28. What are various steps involved in an analytics project?
+- Understand the business problem
+- Explore the data and become familiar with it.
+- Prepare the data for modelling by detecting outliers, treating missing values, transforming variables, etc.
+- After data preparation, start running the model, analyse the result and tweak the approach. This is an iterative step till the best possible outcome is achieved.
+- Validate the model using a new data set.
+- Start implementing the model and track the result to analyse the performance of the model over the period of time.
+
+### Q29. How can you iterate over a list and also retrieve element indices at the same time?
+This can be done using the enumerate function which takes every element in a sequence just like in a list and adds its location just before it.
+
+### Q30. During analysis, how do you treat missing values?
+The extent of the missing values is identified after identifying the variables with missing values. If any patterns are identified the analyst has to concentrate on them as it could lead to interesting and meaningful business insights. If there are no patterns identified, then the missing values can be substituted with mean or median values (imputation) or they can simply be ignored.There are various factors to be considered when answering this question-
+- Understand the problem statement, understand the data and then give the answer.Assigning a default value which can be mean, minimum or maximum value. Getting into the data is important.
+- If it is a categorical variable, the default value is assigned. The missing value is assigned a default value.
+- If you have a distribution of data coming, for normal distribution give the mean value.
+- Should we even treat missing values is another important point to consider? If 80% of the values for a variable are missing then you can answer that you would be dropping the variable instead of treating the missing values.
+
+### Q31. Explain about the box cox transformation in regression models.
+For some reason or the other, the response variable for a regression analysis might not satisfy one or more assumptions of an ordinary least squares regression. The residuals could either curve as the prediction increases or  follow skewed distribution. In such scenarios, it is necessary to transform the response variable so that the data  meets the required assumptions. A Box cox transformation is a statistical technique to transform non-mornla dependent variables into a normal shape. If the given data is not normal then most of the statistical techniques assume normality. Applying a box cox transformation means that you can run a broader number of tests.
+
+### Q32. Can you use machine learning for time series analysis?
+Yes, it can be used but it depends on the applications.
+
+### Q33. What is the difference between Bayesian Estimate and Maximum Likelihood Estimation (MLE)?
+In bayesian estimate we have some knowledge about the data/problem (prior) .There may be several values of the parameters which explain data and hence we can look for multiple parameters like 5 gammas and 5 lambdas that do this. As a result of Bayesian Estimate, we get multiple models for making multiple predcitions i.e. one for each pair of parameters but with the same prior. So, if a new example need to be predicted than computing the weighted sum of these predictions serves the purpose.
+Maximum likelihood does not take prior into consideration (ignores the prior) so it is like being a Bayesian  while using some kind of a flat prior.
+
+### Q34. What is Regularization and what kind of problems does regularization solve?
+
+### Q35. What is multicollinearity and how you can overcome it?
+
+### Q36. What is the curse of dimensionality?
+
+### Q37. How do you decide whether your linear regression model fits the data?
+
+### Q38. What is the difference between squared error and absolute error?
+
+### Q39. What is Machine Learning?
+The simplest way to answer this question is – we give the data and equation to the machine. Ask the machine to look at the data and identify the coefficient values in an equation. For example for the linear regression y=mx+c, we give the data for the variable x, y and the machine learns about the values of m and c from the data.
+
+### Q40. How are confidence intervals constructed and how will you interpret them?
+
+### Q41. How will you explain logistic regression to an economist, physican scientist and biologist?
+
+### Q42. How can you overcome Overfitting?
+
+### Q43. Differentiate between wide and tall data formats?
+
+### Q44. Is Naïve Bayes bad? If yes, under what aspects.
+
+### Q45. How would you develop a model to identify plagiarism?
+
+### Q46. How will you define the number of clusters in a clustering algorithm?
+
+Though the Clustering Algorithm is not specified, this question will mostly be asked in reference to K-Means clustering where “K” defines the number of clusters. The objective of clustering is to group similar entities in a way that the entities within a group are similar to each other but the groups are different from each other.
+
+### Q47. Is it better to have too many false negatives or too many false positives?
+
+### Q48. Is it possible to perform logistic regression with Microsoft Excel?
+It is possible to perform logistic regression with Microsoft Excel. There are two ways to do it using Excel.
+- One is to use Add-ins provided by many websites which we can use.
+- Second is to use fundamentals of logistic regression and use Excel’s computational power to build a logistic regression
+
+### Q49. What do you understand by Fuzzy merging ? Which language will you use to handle it?
+
+### Q50. What is the difference between skewed and uniform distribution?
+
+When the observations in a dataset are spread equally across the range of distribution, then it is referred to as uniform distribution. There are no clear perks in an uniform distribution. Distributions that have more observations on one side of the graph than the other  are referred to as skewed distribution.Distributions with fewer observations on the left ( towards lower values) are said to be skewed left and distributions with fewer observation on the right ( towards higher values) are said to be skewed right.
+
+### Q51. You created a predictive model of a quantitative outcome variable using multiple regressions. What are the steps you would follow to validate the model?
+
+Since the question asked, is about post model building exercise, we will assume that you have already tested for null hypothesis, multi collinearity and Standard error of coefficients.
+
+Once you have built the model, you should check for following:
+
+- Global F-test to see the significance of group of independent variables on dependent variable
+- R^2
+- Adjusted R^2
+- RMSE, MAPE
+
+In addition to above mentioned quantitative metrics you should also check for:
+- Residual plot
+- Assumptions of linear regression 
+
+### Q52. What do you understand by Hypothesis in the content of Machine Learning?
+
+### Q53. What do you understand by Recall and Precision?
+
+Recall  measures "Of all the actual true samples how many did we classify as true?"
+
+Precision measures "Of all the samples we classified as true how many are actually true?"
+
+We will explain this with a simple example for better understanding -
+
+Imagine that your wife gave you surprises every year on your anniversary in last 12 years. One day all of a sudden your wife asks -"Darling, do you remember all anniversary surprises from me?".
+
+This simple question puts your life into danger.To save your life, you need to Recall all 12 anniversary surprises from your memory. Thus, Recall(R) is the ratio of number of events you can correctly recall to the number of all correct events. If you can recall all the 12 surprises correctly then the recall ratio is 1 (100%) but if you can recall only 10 suprises correctly of the 12 then the recall ratio is 0.83 (83.3%).
+
+However , you might be wrong in some cases. For instance, you answer 15 times, 10 times the surprises you guess are correct and 5 wrong. This implies that your recall ratio is 100% but the precision is 66.67%.
+
+Precision is the ratio of number of events you can correctly recall to a number of all events you recall (combination of wrong and correct recalls).
+
+### Q54. How will you find the right K for K-means?
+
+### Q55. Why L1 regularizations causes parameter sparsity whereas L2 regularization does not?
+
+Regularizations in statistics or in the field of machine learning is used to include some extra information in order to solve a problem in a better way. L1 & L2 regularizations are generally used to add constraints to optimization problems.
+
+### Q56. How can you deal with different types of seasonality in time series modelling?
+
+Seasonality in time series occurs when time series shows a repeated pattern over time. E.g., stationary sales decreases during holiday season, air conditioner sales increases during the summers etc. are few examples of seasonality in a time series.
+
+Seasonality makes your time series non-stationary because average value of the variables at different time periods. Differentiating a time series is generally known as the best method of removing seasonality from a time series. Seasonal differencing can be defined as a numerical difference between a particular value and a value with a periodic lag (i.e. 12, if monthly seasonality is present)
+
+### Q57. In experimental design, is it necessary to do randomization? If yes, why?
+
+### Q58. What do you understand by conjugate-prior with respect to Naïve Bayes?
+
+### Q59. Can you cite some examples where a false positive is important than a false negative?
+
+Before we start, let us understand what are false positives and what are false negatives.
+
+False Positives are the cases where you wrongly classified a non-event as an event a.k.a Type I error.
+And, False Negatives are the cases where you wrongly classify events as non-events, a.k.a Type II error.
+
+In medical field, assume you have to give chemo therapy to patients. Your lab tests patients for certain vital information and based on those results they decide to give radiation therapy to a patient.
+
+Assume a patient comes to that hospital and he is tested positive for cancer (But he doesn’t have cancer) based on lab prediction. What will happen to him? (Assuming Sensitivity is 1)
+
+One more example might come from marketing. Let’s say an ecommerce company decided to give $1000 Gift voucher to the customers whom they assume to purchase at least $5000 worth of items. They send free voucher mail directly to 100 customers without any minimum purchase condition because they assume to make at least 20% profit on sold items above 5K.
+
+### Q60. Can you cite some examples where a false negative important than a false positive?
+
+Assume there is an airport ‘A’ which has received high security threats and based on certain characteristics they identify whether a particular passenger can be a threat or not. Due to shortage of staff they decided to scan passenger being predicted as risk positives by their predictive model.
+
+What will happen if a true threat customer is being flagged as non-threat by airport model?
+
+ Another example can be judicial system. What if Jury or judge decide to make a criminal go free?
+
+ What if you rejected to marry a very good person based on your predictive model and you happen to meet him/her after few years and realize that you had a false negative?
+
+### Q61. Can you cite some examples where both false positive and false negatives are equally important?
+
+In the banking industry giving loans is the primary source of making money but at the same time if your repayment rate is not good you will not make any profit, rather you will risk huge losses.
+
+Banks don’t want to lose good customers and at the same point of time they don’t want to acquire bad customers. In this scenario both the false positives and false negatives become very important to measure.
+
+These days we hear many cases of players using steroids during sport competitions Every player has to go through a steroid test before the game starts. A false positive can ruin the career of a Great sportsman and a false negative can make the game unfair.
+
+### Q62. Can you explain the difference between a Test Set and a Validation Set?
+
+Validation set can be considered as a part of the training set as it is used for parameter selection and to avoid Overfitting of the model being built. On the other hand, test set is used for testing or evaluating the performance of a trained machine leaning model.
+
+In simple terms ,the differences can be summarized as-
+
+- Training Set is to fit the parameters i.e. weights.
+- Test Set is to assess the performance of the model i.e. evaluating the predictive power and generalization.
+- Validation set is to tune the parameters.
+
+### Q63. What makes a dataset gold standard?
+
+### Q64. What do you understand by statistical power of sensitivity and how do you calculate it?
+
+Sensitivity is commonly used to validate the accuracy of a classifier (Logistic, SVM, RF etc.). Sensitivity is nothing but “Predicted TRUE events/ Total events”. True events here are the events which were true and model also predicted them as true.
+
+Calculation of senstivity is pretty straight forward-
+
+ Senstivity = True Positives /Positives in Actual Dependent Variable
+
+Where, True positives are Positive events which are correctly classified as Positives.
+
+### Q65. What is the importance of having a selection bias?
+
+Selection Bias occurs when there is no appropriate randomization acheived while selecting individuals, groups or data to be analysed.Selection bias implies that the obtained sample does not exactly represent the population that was actually intended to be analyzed.Selection bias consists of Sampling Bias, Data, Attribute and Time Interval.
+
+### Q66. Give some situations where you will use an SVM over a RandomForest Machine Learning algorithm and vice-versa.
+
+SVM and Random Forest are both used in classification problems.
+
+- If you are sure that your data is outlier free and clean then go for SVM. It is the opposite -   if your data might contain outliers then Random forest would be the best choice
+- Generally, SVM consumes more computational power than Random Forest, so if you are constrained with memory go for Random Forest machine learning algorithm.
+- Random Forest gives you a very good idea of variable importance in your data, so if you want to have variable importance then choose Random Forest machine learning algorithm.
+- Random Forest machine learning algorithms are preferred for multiclass problems.
+- SVM is preferred in multi-dimensional problem set - like text classification
+
+but as a good data scientist, you should experiment with both of them and test for accuracy or rather you can use ensemble of many Machine Learning techniques.
+
+### Q67. What do you understand by feature vectors?
+
+### Q68. How do data management procedures like missing data handling make selection bias worse?
+
+Missing value treatment is one of the primary tasks which a data scientist is supposed to do before starting data analysis. There are multiple methods for missing value treatment. If not done properly, it could potentially result into selection bias. Let see few missing value treatment examples and their impact on selection-
+
+Complete Case Treatment: Complete case treatment is when you remove entire row in data even if one value is missing. You could achieve a selection bias if your values are not missing at random and they have some pattern. Assume you are conducting a survey and few people didn’t specify their gender. Would you remove all those people? Can’t it tell a different story?
+
+Available case analysis: Let say you are trying to calculate correlation matrix for data so you might remove the missing values from variables which are needed for that particular correlation coefficient. In this case your values will not be fully correct as they are coming from population sets.
+
+Mean Substitution: In this method missing values are replaced with mean of other available values.This might make your distribution biased e.g., standard deviation, correlation and regression are mostly dependent on the mean value of variables.
+
+Hence, various data management procedures might include selection bias in your data if not chosen correctly.
+
+### Q69. What are the advantages and disadvantages of using regularization methods like Ridge Regression?
+
+### Q70. What do you understand by long and wide data formats?
+
+### Q71. What do you understand by outliers and inliers? What would you do if you find them in your dataset?
+
+### Q72. Write a program in Python which takes input as the diameter of a coin and weight of the coin and produces output as the money value of the coin.
+
+### Q73. What are the basic assumptions to be made for linear regression?
+
+Normality of error distribution, statistical independence of errors, linearity and additivity.
+
+### Q74. Can you write the formula to calculat R-square?
+
+R-Square can be calculated using the below formula:
+
+1 - (Residual Sum of Squares/ Total Sum of Squares)
+
+### Q75. What is the advantage of performing dimensionality reduction before fitting an SVM?
+
+Support Vector Machine Learning Algorithm performs better in the reduced space. It is beneficial to perform dimensionality reduction before fitting an SVM if the number of features is large when compared to the number of observations.
+
+### Q76. How will you assess the statistical significance of an insight whether it is a real insight or just by chance?
+
+Statistical importance of an insight can be accessed using Hypothesis Testing.
+
+### Q77. How would you create a taxonomy to identify key customer trends in unstructured data?
