@@ -309,10 +309,10 @@ Okay for this we can have many different answer, my answer would be something li
 
 ![picture alt](https://cdn-images-1.medium.com/max/800/1*WzUxdwSqEdJYv3L8bzMo6A.png)
 Lets say we have an array of numbers and we can see there is a huge number (7777) among smaller numbers. When we visualize this array all together it looks something like below.
-![picture alt]( https://cdn-images-1.medium.com/max/400/1*wZA5Q1r3LwTy_QPHZDMhkA.png)
--	Right Image → Original Image
--	Middle Image → Normalized value 
--	Left Image → Standardized value
+![picture alt](https://cdn-images-1.medium.com/max/400/1*wZA5Q1r3LwTy_QPHZDMhkA.png)
+![picture alt](https://cdn-images-1.medium.com/max/800/1*RLRSt7rmO1KhI7QdHtliJA.png)
+![picture alt](https://cdn-images-1.medium.com/max/400/1*dhmgCba0lTNohIubU5c8cg.png)
+
 As seen above, even if we normalize or standardize the values, the created plot is very skewed.
 
 ### Q4. How to compute an inverse matrix faster by playing around with some computational tricks?
