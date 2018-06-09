@@ -362,4 +362,23 @@ I like to be part of a team with a lot of bright people who have interesting ide
 -	To be honest, I wasn't considering a move, but I saw this job posting and was intrigued by the position and the company. It sounds like an exciting opportunity and an ideal match with my qualifications.
 -	This position seemed like an excellent match for my skills and experience, which I am not able to fully utilize in my present job.
 -	The company was cutting back and, unfortunately, my job was one of those eliminated.
+## Saint Mary's University
+### Q1. You are in a meeting. Your manager blames you for not doing well on a task, in front of all your peers and managers from other divisions. You believe that your manager is wrong in his critique, and that he might have come to this conclusion hastily without knowing all the information. You feel you are being treated unfairly in front of your peers. You feel that your reputation may be affected by this critique. What would you do in this situation? 
+### Q2. What would you do if the work of a subordinate or team member was not up to expectations? 
+### Q3. A co-worker tells you in confidence that she plans to call in sick while actually taking a week's vacation. What would you do and why? 
+### Q4. How would you handle it if you believed strongly in a recommendation you made in a meeting, but most of your co-workers shot it down? 
+### Q5. In a training session, you find that the trainer has a thick accent, and you can't understand what's being said. What would you do? 
+### Q6. What would you do if you realized at deadline time that a report you wrote for your boss or professor was not up to par? 
+### Q7. How would you deal with a colleague at work with whom you seem to be unable to build a successful working relationship? 
+### Q8. You disagree with the way your supervisor says to handle a problem. What would you do? 
+### Q9. Who would you talk to if you discovered that a co-worker was disclosing confidential information that should not be divulged? 
+### Q10. When would it be appropriate to bring in your supervisor while dealing with an angry customer? 
+### Q11. How would you attempt to make changes in the process if you felt a policy of your organization was hurting its members/workers? 
+### Q12. What would a good manager do to build team spirit? 
+### Q13. How would you organize the steps or methods you'd take to define/identify a vision for your team or your personal job function? 
+### Q14. How would you react if two teammates were embroiled in a conflict that kept the team from completing its task? 
+### Q15. You don't have the information you need to prioritize your projects. Your co-workers and supervisor are unavailable for you to ask for assistance. How do you handle the situation? 
+### Q16. As a supervisor, you've made an unpopular decision. What action would you take so that morale in the department is not negatively affected? 
+### Q17. In a team-leadership role, you discover that a team member has gone "over your head" to propose an idea or complain about an issue without talking to you first. How do you handle the situation? 
+### Q18. You been placed in charge of a project team for a new project. What are your first steps to get the team going and complete the project?
 
