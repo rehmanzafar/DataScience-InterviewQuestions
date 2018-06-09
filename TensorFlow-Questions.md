@@ -287,3 +287,40 @@ Below mentioned are different types of dashboards in TensorFlow:
 6. Graph
 7. Embedding
 
+## Microsoft AI Interview Questions with Interactive Code
+### Q1. What are the different cost function / regularization metrics L1 and L2?
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*0jllnRKb9boUfNujWeRmpA.png)
+
+I would say, L1 is absolute difference between predicted value and ground truth value. For L2 I would say it is the Mean Square error difference. I implemented and compared variety of combinations of L1 and L2 cost function with regularization in this post. Also, L1 regularizer is Sum of absolute values in the weight, and L2 is sum of square value of all the weights.
+
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*zMLv7EHYtjfr94JOBzjqTA.png)
+
+### Q2. How do you find percentile? Write the code for it?
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*kgdg4nepPnh0o8r3o8q-Lw.png)
+
+For this lets just do a simple question from Math is Fun. Given the above table lets get the time when the 30% people have visited the mall.
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*hHV5YH8spgeVmF72nEbJOg.png)
+
+I would get the 30% percentile first and get the average time value, obviously this is not the most accurate answer as seen below. But we can get the general feel.
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*cIVoUGcYOSqboJD6a8Eoag.png)
+
+### Q3. What is a difference between good and bad Data Visualization?
+Okay for this we can have many different answer, my answer would be something like when we do not properly handle outliers and visualize them.
+
+![picture alt](https://cdn-images-1.medium.com/max/800/1*WzUxdwSqEdJYv3L8bzMo6A.png)
+Lets say we have an array of numbers and we can see there is a huge number (7777) among smaller numbers. When we visualize this array all together it looks something like below.
+![picture alt]( https://cdn-images-1.medium.com/max/400/1*wZA5Q1r3LwTy_QPHZDMhkA.png)
+-	Right Image → Original Image
+-	Middle Image → Normalized value 
+-	Left Image → Standardized value
+As seen above, even if we normalize or standardize the values, the created plot is very skewed.
+
+### Q4. How to compute an inverse matrix faster by playing around with some computational tricks?
+I actually have no idea what the exact answer is, but upon research I found the method called Gauss-Jordan method, however it is very complex. And I was manage to find a simpler solution as seen below and implemented this method.
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*cBhR_TAKsy0vs7pizD3WXw.png)
+
+![picture alt]( https://cdn-images-1.medium.com/max/800/1*iLBg7tl9KEUaunFezIuG2A.png)
+### Q5. Define variance?
+In my words, I would describe variance as the sum of square difference of each data point, respect the mean of whole data. In other words, are there a lot of variety in the data. And actually, Math is Fun have an amazing diagram describing this.
+
+![picture alt](https://cdn-images-1.medium.com/max/800/1*-_0ciFsX0VXKpCA9e1o3JQ.png)
