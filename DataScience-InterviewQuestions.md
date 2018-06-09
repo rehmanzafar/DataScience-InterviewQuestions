@@ -596,3 +596,15 @@ Support Vector Machine Learning Algorithm performs better in the reduced space. 
 Statistical importance of an insight can be accessed using Hypothesis Testing.
 
 ### Q77. How would you create a taxonomy to identify key customer trends in unstructured data?
+Support Vector Machine Learning Algorithm performs better in the reduced space. It is beneficial to perform dimensionality reduction before fitting an SVM if the number of features is large when compared to the number of observations.
+
+### Q78. How will you assess the statistical significance of an insight whether it is a real insight or just by chance?
+
+Statistical importance of an insight can be accessed using Hypothesis Testing.
+
+### Q79. How would you create a taxonomy to identify key customer trends in unstructured data?
+The best way to approach this question is to mention that it is good to check with the business owner and understand their objectives before categorizing the data. Having done this, it is always good to follow an iterative approach by pulling new data samples and improving the model accordingly by validating it for accuracy by soliciting feedback from the stakeholders of the business. This helps ensure that your model is producing actionable results and improving over the time.
+
+### Q80. How will you find the correlation between a categorical variable and a continuous variable ?
+
+You can use the analysis of covariance technqiue to find the correlation between a categorical variable and a continuous variable.
