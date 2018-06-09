@@ -182,3 +182,86 @@ Bias error is useful to quantify how much on an average are the predicted values
 ### Q40. OLS is to linear regression. Maximum likelihood is to logistic regression. Explain the statement.
 Answer: OLS and Maximum likelihood are the methods used by the respective regression methods to approximate the unknown parameter (coefficient) value. In simple words,
 Ordinary least square(OLS) is a method used in linear regression which approximates the parameters resulting in minimum distance between actual and predicted values. Maximum Likelihood helps in choosing the the values of parameters which maximizes the likelihood that the parameters are most likely to produce observed data.
+
+#Simplilearn
+
+### Q1. What are feature vectors?
+Answer: A feature vector is an n-dimensional vector of numerical features that represent some object. In machine learning, feature vectors are used to represent numeric or symbolic characteristics, called features, of an object in a mathematical, easily analyzable way.
+
+### Q2. Explain the steps in making a decision tree.
+Answer: Take the entire data set as input.
+- Look for a split that maximizes the separation of the classes. A split is any test that divides the data into two sets.
+- Apply the split to the input data (divide step).
+- Re-apply steps 1 to 2 to the divided data.
+- Stop when you meet some stopping criteria.
+- This step is called pruning. Clean up the tree if you went too far doing splits.
+
+### Q3. What is root cause analysis?
+Answer: Root cause analysis was initially developed to analyze industrial accidents but is now widely used in other areas. It is a problem-solving technique used for isolating the root causes of faults or problems. A factor is called a root cause if its deduction from the problem-fault-sequence averts the final undesirable event from reoccurring.
+
+### Q4. What is logistic regression?
+Answer: Logistic Regression is also known as the logit model. It is a technique to forecast the binary outcome from a linear combination of predictor variables.
+
+### Q5. What are Recommender Systems?
+Answer: Recommender systems are a subclass of information filtering systems that are meant to predict the preferences or ratings that a user would give to a product.
+
+### Q6. Explain cross-validation.
+Answer: It is a model validation technique for evaluating how the outcomes of a statistical analysis will generalize to an independent data set. It is mainly used in backgrounds where the objective is forecast and one wants to estimate how accurately a model will accomplish in practice. The goal of cross-validation is to term a data set to test the model in the training phase (i.e. validation data set) in order to limit problems like overfitting and gain insight on how the model will generalize to an independent data set.
+
+### Q7. What is Collaborative Filtering?
+Answer: The process of filtering used by most recommender systems to find patterns and information by collaborating perspectives, numerous data sources, and several agents.
+
+### Q8. Do gradient descent methods at all times converge to a similar point?
+Answer: No, they do not because in some cases they reach a local minima or a local optima point. You would not reach the global optima point. This is governed by the data and the starting conditions.
+
+### Q9. What is the goal of A/B Testing?
+Answer: This is a statistical hypothesis testing for randomized experiments with two variables, A and B. The objective of A/B testing is to detect any changes to a web page to maximize or increase the outcome of a strategy.
+
+### Q10. What are the drawbacks of the linear model?
+Answer: Some drawbacks of the linear model are:
+- The assumption of linearity of the errors.
+- It can’t be used for count outcomes or binary outcomes
+- There are overfitting problems that it can’t solve
+
+### Q11. What is the Law of Large Numbers?
+Answer: It is a theorem that describes the result of performing the same experiment a large number of times. This theorem forms the basis of frequency-style thinking. It says that the sample mean, the sample variance and the sample standard deviation converge to what they are trying to estimate.
+
+### Q12.  What are confounding variables?
+Answer: These are extraneous variables in a statistical model that correlate directly or inversely with both the dependent and the independent variable. The estimate fails to account for the confounding factor.
+
+### Q13. Explain star schema?
+Answer: It is a traditional database schema with a central table. Satellite tables map IDs to physical names or descriptions and can be connected to the central fact table using the ID fields; these tables are known as lookup tables and are principally useful in real-time applications, as they save a lot of memory. Sometimes star schemas involve several layers of summarization to recover information faster.
+
+### Q14. How regularly must an algorithm be updated?
+
+Answer: You will want to update an algorithm when:
+- You want the model to evolve as data streams through infrastructure
+- The underlying data source is changing
+- There is a case of non-stationarity
+
+### Q15.  What are Eigenvalue and Eigenvector?
+Answer: Eigenvectors are for understanding linear transformations. In data analysis, we usually calculate the eigenvectors for a correlation or covariance matrix. Eigenvalues are the directions along which a particular linear transformation acts by flipping, compressing or stretching.
+
+### Q16. Why is resampling done?
+Answer: Resampling is done in any of these cases:
+- Estimating the accuracy of sample statistics by using subsets of accessible data or drawing randomly with replacement from a set of data points
+- Substituting labels on data points when performing significance tests
+- Validating models by using random subsets (bootstrapping, cross validation)
+### Q17. Explain selective bias?
+Answer: Selection bias, in general, is a problematic situation in which error is introduced due to a non-random population sample.
+
+### Q18. What are the types of biases that can occur during sampling?
+Answer: 
+- Selection bias
+- Under coverage bias
+- Survivorship bias
+
+### Q19. Explain survivorship bias?
+Answer: It is the logical error of focusing aspects that support surviving some process and casually overlooking those that did not because of their lack of prominence. This can lead to wrong conclusions in numerous different means.
+
+### Q20. How do you work towards a random forest?
+Answer: The underlying principle of this technique is that several weak learners combined to provide a strong learner. The steps involved are
+- Build several decision trees on bootstrapped training samples of data
+- On each tree, each time a split is considered, a random sample of mm predictors is chosen as split candidates, out of all pp predictors
+- Rule of thumb: At each split m=p√m=p
+- Predictions: At the majority rule
