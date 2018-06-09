@@ -308,7 +308,9 @@ I would get the 30% percentile first and get the average time value, obviously t
 Okay for this we can have many different answer, my answer would be something like when we do not properly handle outliers and visualize them.
 
 ![picture alt](https://cdn-images-1.medium.com/max/800/1*WzUxdwSqEdJYv3L8bzMo6A.png)
+
 Lets say we have an array of numbers and we can see there is a huge number (7777) among smaller numbers. When we visualize this array all together it looks something like below.
+
 ![picture alt](https://cdn-images-1.medium.com/max/400/1*wZA5Q1r3LwTy_QPHZDMhkA.png)
 ![picture alt](https://cdn-images-1.medium.com/max/800/1*RLRSt7rmO1KhI7QdHtliJA.png)
 ![picture alt](https://cdn-images-1.medium.com/max/400/1*dhmgCba0lTNohIubU5c8cg.png)
